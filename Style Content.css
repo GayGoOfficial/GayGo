@@ -121,13 +121,15 @@ html, body{
     }
     .vision p{
         text-align: center;
+        width: 400px;
     }
     .mission p{
         text-align: center;
+        width: 400px;
     }
     .philosophy p{
         text-align: center;
-        margin-left: 25px ;
+        width: 400px;
     }
     .main{
         margin-left: 10px;
