@@ -115,21 +115,21 @@ html, body{
         font-size: 20px;
      }
     .vmp{
-        display: list-item;
-        margin-left: 50px;
-        margin-right: 50px;
+        display: inline-table;
+        margin-left: 2px;
+        
     }
     .vision p{
         text-align: center;
-        width: 250px;
+        width: 300px;
     }
     .mission p{
         text-align: center;
-        width: 250px;
+        width: 300px;
     }
     .philosophy p{
         text-align: center;
-        width: 250px;
+        width: 300px;
     }
     .main{
         margin-left: 10px;
