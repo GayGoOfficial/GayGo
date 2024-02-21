@@ -107,7 +107,7 @@ html, body{
          position: absolute;
          top: 0;
          width: 100%;
-         height: 75%;
+         height: 75%f;
      }
     
      .Moto{
@@ -116,7 +116,7 @@ html, body{
      }
     .vmp{
         display: inline-table;
-        margin-left: 2px;
+        margin-left: 5px;
         
     }
     .vision p{
