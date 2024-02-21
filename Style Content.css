@@ -31,7 +31,7 @@ body{
     color: white;
 }
 .Moto {
-    margin-left: 160px; 
+    margin-left: 150px; 
     font-size: 24px;
     padding: 0px 10px;
 }
@@ -112,11 +112,12 @@ html, body{
     
      .Moto{
         margin-top: 650px;
+        font-size: 20px;
      }
     .vmp{
         display: list-item;
-        margin-left: 25%;
-        margin-right: 25%;
+        margin-left: 50px;
+        margin-right: 50px;
     }
     .vision p{
         text-align: center;
@@ -126,6 +127,7 @@ html, body{
     }
     .philosophy p{
         text-align: center;
+        margin-left: 25px ;
     }
     .main{
         margin-left: 10px;
