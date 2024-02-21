@@ -44,7 +44,7 @@ body{
     margin-left: 140px;
     margin-top: 25px;
     margin-bottom: 25px;
-    font-size: 17px;
+    font-size: 15px;
     padding: 0px 10px;
     display: flex;
     justify-content:space-evenly;
@@ -83,6 +83,8 @@ footer{
     height: 150px;
     width: 100%;
     overflow-y: hidden;
+    left: 0;
+    right: 0;
 }
 
 .contact{
@@ -96,7 +98,10 @@ footer{
     color: white;
 }
 
-@media only screen and (max-width: 767px) { 
+html, body{
+}
+
+@media only screen and (max-width: 768px){
 
     .sidenav { 
          position: absolute;
@@ -107,3 +112,21 @@ footer{
      .Moto{
         margin-top: 650px;
      }
+    .vmp{
+        display: list-item;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    .vision{
+        text-align: center;
+    }
+    .mission{
+        text-align: center;
+    }
+    .philosophy{
+        text-align: center;
+    }
+    .main{
+        margin-left: 10px;
+    }
+}
