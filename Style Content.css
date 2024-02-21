@@ -29,14 +29,46 @@ body{
     color: white;
 }
 .Moto {
-    margin-left: 350px; 
+    margin-left: 160px; 
     font-size: 24px;
     padding: 0px 10px;
-    justify-content: center;
 }
 .main{
     margin-left: 160px;
     font-size: 17px;
     padding: 0px 10px;
 }
+.vmp{
+    margin-left: 140px;
+    font-size: 17px;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.mission h1{
+    text-align: center;
+    
+}
+.mission p{
+    width: 300px;
+    text-align: center;
+    
+}
 
+.vision h1{
+    text-align: center;
+    
+}
+.vision p{
+    width: 300px;
+    text-align: center;
+}
+
+.philosophy h1{
+    text-align: center;
+}
+
+.philosophy p{
+    width: 300px;
+    text-align: center;
+}
