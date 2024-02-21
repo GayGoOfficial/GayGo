@@ -40,10 +40,11 @@ body{
 }
 .vmp{
     margin-left: 140px;
+    margin-top: 25px;
     font-size: 17px;
     padding: 0px 10px;
     display: flex;
-    justify-content: space-around;
+    justify-content:space-evenly;
 }
 .mission h1{
     text-align: center;
@@ -72,3 +73,15 @@ body{
     width: 300px;
     text-align: center;
 }
+
+@media only screen and (max-width: 767px) { 
+
+    .sidenav { 
+         position: absolute;
+         top: 0;
+         width: 100%;
+     }
+    
+     .Moto{
+        margin-top: 650px;
+     }
