@@ -1,5 +1,7 @@
 body{
     background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
 }
 .sidenav{
     width: 175px;
@@ -41,18 +43,20 @@ body{
 .vmp{
     margin-left: 140px;
     margin-top: 25px;
+    margin-bottom: 25px;
     font-size: 17px;
     padding: 0px 10px;
     display: flex;
     justify-content:space-evenly;
 }
+
 .mission h1{
     text-align: center;
     
 }
 .mission p{
     width: 300px;
-    text-align: center;
+    text-align: center;;
     
 }
 
@@ -72,6 +76,22 @@ body{
 .philosophy p{
     width: 300px;
     text-align: center;
+}
+
+footer{
+    background-color: #000000;
+    height: 150px;
+}
+
+.contact{
+    margin-left: 175px;
+    padding-top: 1px;
+    line-height: 5px;
+    font-size: 13px;
+    color: white;
+}
+#copyright{
+    color: white;
 }
 
 @media only screen and (max-width: 767px) { 
